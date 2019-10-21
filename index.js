@@ -1,4 +1,6 @@
 const axios = require('axios');
+const moment = require('moment-timezone');
+
 const tokenSymbol = 'BTC';
 const withTokenSymbol = 'USDT';
 const apiKey = 'cdc591b1638966047a2fe76dd5b8460815685823fb0fcd9e2eb0cb71c34fb8f2';
@@ -10,20 +12,52 @@ const instance = axios.create({
     withCredentials: true
 });
 
-instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + tokenSymbol + '&tsym=' + withTokenSymbol + '&toTs= 1571594400' )
+function convertToDayOfWeek(numberDayOfWeek) {
+    return numberDayOfWeek === 0? 'Sunday' :
+        numberDayOfWeek === 1? 'Monday':
+            numberDayOfWeek === 2? 'Tuesday':
+                numberDayOfWeek === 3? 'Wednesday':
+                    numberDayOfWeek === 4? 'Thursday':
+                        numberDayOfWeek === 5? 'Friday':
+                            'Saturday'
+}
+
+function chunkArrayInGroups(arr, size) {
+    let myArray = [];
+    for(let i = 0; i < arr.length; i += size) {
+        myArray.push(arr.slice(i, i+size));
+    }
+    return myArray;
+}
+
+instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + tokenSymbol + '&tsym=' + withTokenSymbol + '&toTs=1571590800' )
     .then(response => {
-        const timeFrom = Date(response.data.Data.TimeFrom);
-        const timeTo = Date(response.data.Data.TimeTo);
         const data = response.data.Data.Data;
-        data.forEach( (curData, index) => {
-            const nextData = data[index + 1];
-            if(typeof nextData != "undefined") {
-                console.log('From: ', Date(curData.time));
-                console.log('To: ', Date(nextData.time));
-                const priceOpen = curData.open;
-                const priceClosed = curData.close;
-                const cal = (priceClosed - priceOpen)*100/priceOpen;
-                console.log('Change: ', cal);
+        const preProcessedData = data.map( (curData, index) => {
+            const nextData = typeof data[index + 1] != "undefined" ? data[index + 1] : data[0];
+            
+            const timeFrom = moment(curData.time * 1000).tz('Asia/Ho_Chi_Minh');
+            const timeFromDate = timeFrom.format('YYYY-MM-DD');
+            const timeFromTime = timeFrom.format('HH:mm');
+            const timeFromDayOfWeek = convertToDayOfWeek(timeFrom.day());
+            // console.log('From: ', timeFromDayOfWeek);
+            // console.log('At: ', timeFromDate);
+            const timeTo = moment(nextData.time * 1000).tz('Asia/Ho_Chi_Minh');
+            const timeToDate = timeTo.format('YYYY-MM-DD');
+            const timeToTime = timeTo.format('HH:mm');
+            const timeToDayOfWeek = convertToDayOfWeek(timeTo.day());
+            // console.log('To: ' + timeToDayOfWeek);
+            // console.log('At: ' + timeToDate);
+            const priceOpen = curData.open;
+            const priceClosed = curData.close;
+            const cal = (priceClosed - priceOpen)*100/priceOpen;
+            // console.log('Change: ', cal);
+            return {
+                'date': timeFromDayOfWeek + ' ' + timeFromDate,
+                'time': timeFromTime + ' - ' + timeToTime,
+                'priceChange': cal
             }
         })
+        const processedData = chunkArrayInGroups(preProcessedData, 24);
+        console.log(JSON.stringify(processedData));
     }).catch(err => console.log('Error: ',err));
