@@ -1,5 +1,6 @@
 const axios = require('axios');
 const moment = require('moment-timezone');
+const fs = require('fs');
 
 const tokenSymbol = 'BTC';
 const withTokenSymbol = 'USDT';
@@ -40,18 +41,15 @@ instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + token
             const timeFromDate = timeFrom.format('YYYY-MM-DD');
             const timeFromTime = timeFrom.format('HH:mm');
             const timeFromDayOfWeek = convertToDayOfWeek(timeFrom.day());
-            // console.log('From: ', timeFromDayOfWeek);
-            // console.log('At: ', timeFromDate);
+
             const timeTo = moment(nextData.time * 1000).tz('Asia/Ho_Chi_Minh');
             const timeToDate = timeTo.format('YYYY-MM-DD');
             const timeToTime = timeTo.format('HH:mm');
             const timeToDayOfWeek = convertToDayOfWeek(timeTo.day());
-            // console.log('To: ' + timeToDayOfWeek);
-            // console.log('At: ' + timeToDate);
+
             const priceOpen = curData.open;
             const priceClosed = curData.close;
             const cal = (priceClosed - priceOpen)*100/priceOpen;
-            // console.log('Change: ', cal);
             return {
                 'date': timeFromDayOfWeek + ' ' + timeFromDate,
                 'time': timeFromTime + ' - ' + timeToTime,
@@ -59,5 +57,17 @@ instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + token
             }
         })
         const processedData = chunkArrayInGroups(preProcessedData, 24);
-        console.log(JSON.stringify(processedData));
+        const titleBar = '-,' + processedData[0].map(e=> e.time).join(',') + '\n';
+        const content = processedData.map(dailyInWeek => {
+                return dailyInWeek[0].date + ',' + dailyInWeek.map(daily => daily.priceChange).join(',') + '\n'
+            }
+        );
+        fs.writeFile("result.csv", titleBar + content, function(err) {
+
+            if(err) {
+                return console.log(err);
+            }
+
+            console.log("The file was saved!");
+        });
     }).catch(err => console.log('Error: ',err));
