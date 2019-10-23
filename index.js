@@ -35,35 +35,56 @@ function chunkArrayInGroups(arr, size) {
     return myArray;
 }
 
-const ExportResult = {
+const ExportType = {
     emoji: 'Emoji',
     vns: 'Tieng Viet',
-    emotion: "Emotion"
+    emotion: "Emotion",
+    default: "Default"
 }
 
-function executingPrice(price, exportTo = ExportResult.emoji){
-    if(exportTo == ExportResult.emoji) {
-        return price > 0.4 && price <= 1 ? '🙂' :
+const ExecutedTime = {
+    hourly: 'Hourly',
+    weekly: 'Weekly'
+}
+
+function executingPrice(price, exportTo = ExportType.default){
+    if(exportTo == ExportType.emoji) {
+        return price > 0.3 && price <= 1 ? '🙂' :
         price > 1 && price <= 2 ? '😀' : 
         price > 2 && price <= 4 ? '😆' :  
         price > 4 ? '🤩' : 
-        price < -0.4 && price >= -1 ? '🙁' :
+        price < -0.3 && price >= -1 ? '🙁' :
         price < -1 && price >= -2 ? '😨' :
         price < -2 && price >= -4 ? '😱' :
         price < -4 ? '🥶' : 
-        '😐'
-    } else {
-        return price > 0.4 && price <= 1 ? 'Tăng nhẹ' :
+        '-'
+    } else if (ExportType.vns) {
+        return price > 0.3 && price <= 1 ? 'Tăng nhẹ' :
         price > 1 && price <= 2 ? 'Tăng ổn' : 
         price > 2 && price <= 4 ? 'Tăng tốt' :  
         price > 4 ? 'Wow!!!' : 
-        price < -0.4 && price >= -1 ? 'Giảm nhẹ' :
+        price < -0.3 && price >= -1 ? 'Giảm nhẹ' :
         price < -1 && price >= -2 ? 'Giảm khá' :
         price < -2 && price >= -4 ? 'Giảm mạnh' :
         price < -4 ? 'What the *' : 
-        'Hmm'
-    }
+        '-'
+    } else price
     
+}
+
+function writeToFile(name, content) {
+    fs.writeFile(name, content, function(err) {
+        if(err) {
+            return console.log(err);
+        }
+        console.log(name + " was saved!");
+    });
+}
+
+function processingContent(data, exportType = ExportType.default, excutedTime = ExecutedTime.hourly) {
+    return data.map(dailyInWeek => {
+        return dailyInWeek[0].date + ',' + dailyInWeek.map(daily => executingPrice(daily.priceChange, exportType)).join(',') 
+    }).join('\n');
 }
 
 const toTS = '1571590800';
@@ -88,34 +109,28 @@ instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + token
 
             const priceOpen = curData.open;
             const priceClosed = curData.close;
-            const cal = (priceClosed - priceOpen)*100/priceOpen;
+            const priceHigh = curData.high;
+            const priceLow = curData.low;
+            const calOP = (priceClosed - priceOpen)*100/priceOpen;
+            const calHL = (priceHigh - priceLow)*100/priceLow;
             return {
                 'date': timeFromDayOfWeek + ' ' + timeFromDate,
                 'time': timeFromTime + ' - ' + timeToTime,
-                'priceChange': cal
+                'priceChange': calOP,
+                'priceChangeHighLow': calHL
             }
         })
-        fs.writeFile('./ApiResult/' + tokenSymbol + '-' + withTokenSymbol +".json",  JSON.stringify(preProcessedData, null, 4), function(err) {
+        writeToFile('./ApiResult/' + tokenSymbol + '-' + withTokenSymbol +".json",  JSON.stringify(preProcessedData, null, 4));
+        if(aggregate/24 < 1) {
+            const processedData = chunkArrayInGroups(preProcessedData, 24 / aggregate);
+            const titleBar = '-,' + processedData[0].map(e => e.time).join(',') + '\n';
+            const content = processingContent(processedData, ExportType.vns);
+            writeToFile('./AnalysisResult/open-close/feeling/' + tokenSymbol + '-' + withTokenSymbol +".csv", titleBar + content);
+        } else {
+            const processedData = chunkArrayInGroups(preProcessedData, 7);
+            const titleBar = '-,' + processedData[0].map(e => e.date).join(',') + '\n';
+            const content = processingContent(processedData, ExportType.vns);
+        }
 
-            if(err) {
-                return console.log(err);
-            }
-
-            console.log('Api result: ' + tokenSymbol + '-' + withTokenSymbol + " was saved!");
-        });
-        const processedData = chunkArrayInGroups(preProcessedData, 24/aggregate);
-        const titleBar = '-,' + processedData[0].map(e=> e.time).join(',') + '\n';
-        const content = processedData.map(dailyInWeek => {
-                return dailyInWeek[0].date + ',' + dailyInWeek.map(daily => executingPrice(daily.priceChange, ExportResult.vns)).join(',') 
-            }
-        ).join('\n');
-        fs.writeFile('./AnalysisResult/' + tokenSymbol + '-' + withTokenSymbol +".csv", titleBar + content, function(err) {
-
-            if(err) {
-                return console.log(err);
-            }
-
-            console.log('Analysis result: ' + tokenSymbol + '-' + withTokenSymbol + " was saved!");
-        });
     }).catch(err => console.log('Error: ',err));
 });
