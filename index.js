@@ -65,8 +65,12 @@ function executingPrice(price, exportTo = ExportResult.emoji){
     }
     
 }
+
+const toTS = '1571590800';
+const aggregate = '2';
+const aggregatePredictableTimePeriods = 'false'
 tokenSymbols.forEach(tokenSymbol => {
-instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + tokenSymbol + '&tsym=' + withTokenSymbol + '&toTs=1571590800' )
+instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + tokenSymbol + '&tsym=' + withTokenSymbol + '&toTs=' + toTS + '&aggregate=' + aggregate + '&aggregatePredictableTimePeriods=' + aggregatePredictableTimePeriods)
     .then(response => {
         const data = response.data.Data.Data;
         const preProcessedData = data.map( (curData, index) => {
@@ -99,7 +103,7 @@ instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + token
 
             console.log('Api result: ' + tokenSymbol + '-' + withTokenSymbol + " was saved!");
         });
-        const processedData = chunkArrayInGroups(preProcessedData, 24);
+        const processedData = chunkArrayInGroups(preProcessedData, 24/aggregate);
         const titleBar = '-,' + processedData[0].map(e=> e.time).join(',') + '\n';
         const content = processedData.map(dailyInWeek => {
                 return dailyInWeek[0].date + ',' + dailyInWeek.map(daily => executingPrice(daily.priceChange, ExportResult.vns)).join(',') 

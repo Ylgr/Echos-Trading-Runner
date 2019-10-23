@@ -1,9 +1,16 @@
--,00:00 - 01:00,01:00 - 02:00,02:00 - 03:00,03:00 - 04:00,04:00 - 05:00,05:00 - 06:00,06:00 - 07:00,07:00 - 08:00,08:00 - 09:00,09:00 - 10:00,10:00 - 11:00,11:00 - 12:00,12:00 - 13:00,13:00 - 14:00,14:00 - 15:00,15:00 - 16:00,16:00 - 17:00,17:00 - 18:00,18:00 - 19:00,19:00 - 20:00,20:00 - 21:00,21:00 - 22:00,22:00 - 23:00,23:00 - 00:00
-Monday 2019-10-14,Hmm,Hmm,Hmm,Giảm khá,Hmm,Tăng nhẹ,Giảm nhẹ,Hmm,Tăng nhẹ,Tăng nhẹ,Hmm,Hmm,Hmm,Hmm,Giảm nhẹ,Hmm,Hmm,Hmm,Giảm nhẹ,Hmm,Hmm,Hmm,Hmm,Tăng ổn
-Tuesday 2019-10-15,Giảm nhẹ,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Giảm nhẹ,Hmm,Hmm,Tăng nhẹ,Hmm,Hmm,Hmm,Giảm nhẹ,Tăng nhẹ,Giảm khá
-Wednesday 2019-10-16,Giảm nhẹ,Hmm,Hmm,Hmm,Hmm,Hmm,Tăng nhẹ,Tăng ổn,Hmm,Giảm nhẹ,Tăng nhẹ,Hmm,Hmm,Giảm nhẹ,Hmm,Tăng nhẹ,Hmm,Hmm,Hmm,Giảm khá,Hmm,Giảm nhẹ,Hmm,Giảm nhẹ
-Thursday 2019-10-17,Hmm,Hmm,Hmm,Tăng nhẹ,Hmm,Hmm,Hmm,Giảm nhẹ,Hmm,Tăng nhẹ,Giảm nhẹ,Hmm,Tăng nhẹ,Hmm,Hmm,Tăng ổn,Hmm,Giảm nhẹ,Hmm,Hmm,Hmm,Hmm,Tăng nhẹ,Hmm
-Friday 2019-10-18,Hmm,Hmm,Hmm,Hmm,Hmm,Tăng nhẹ,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Giảm khá,Hmm,Giảm nhẹ,Giảm khá,Hmm,Hmm,Tăng nhẹ,Hmm,Hmm,Giảm nhẹ,Tăng nhẹ,Hmm
-Saturday 2019-10-19,Hmm,Hmm,Hmm,Giảm nhẹ,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Tăng ổn,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Tăng nhẹ,Hmm,Hmm,Hmm,Giảm nhẹ
-Sunday 2019-10-20,Tăng nhẹ,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Tăng nhẹ,Hmm,Hmm,Hmm,Tăng nhẹ,Tăng ổn,Tăng nhẹ,Tăng ổn
+-,00:00 - 02:00,02:00 - 04:00,04:00 - 06:00,06:00 - 08:00,08:00 - 10:00,10:00 - 12:00,12:00 - 14:00,14:00 - 16:00,16:00 - 18:00,18:00 - 20:00,20:00 - 22:00,22:00 - 00:00
+Monday 2019-10-07,Giảm khá,Tăng ổn,Giảm nhẹ,Hmm,Hmm,Tăng ổn,Hmm,Tăng ổn,Tăng nhẹ,Hmm,Tăng ổn,Tăng ổn
+Tuesday 2019-10-08,Giảm nhẹ,Giảm nhẹ,Tăng nhẹ,Hmm,Tăng nhẹ,Giảm nhẹ,Hmm,Giảm nhẹ,Hmm,Giảm nhẹ,Giảm nhẹ,Giảm nhẹ
+Wednesday 2019-10-09,Tăng nhẹ,Giảm nhẹ,Tăng ổn,Hmm,Hmm,Giảm nhẹ,Tăng nhẹ,Tăng nhẹ,Hmm,Giảm nhẹ,Tăng tốt,Giảm nhẹ
+Thursday 2019-10-10,Hmm,Hmm,Hmm,Giảm nhẹ,Hmm,Hmm,Hmm,Giảm nhẹ,Giảm khá,Hmm,Tăng nhẹ,Giảm nhẹ
+Friday 2019-10-11,Hmm,Hmm,Hmm,Giảm khá,Tăng nhẹ,Tăng ổn,Giảm mạnh,Giảm nhẹ,Hmm,Giảm khá,Hmm,Hmm
+Saturday 2019-10-12,Giảm khá,Hmm,Hmm,Tăng nhẹ,Hmm,Hmm,Tăng nhẹ,Hmm,Giảm nhẹ,Tăng nhẹ,Tăng nhẹ,Tăng nhẹ
+Sunday 2019-10-13,Giảm khá,Hmm,Hmm,Hmm,Hmm,Hmm,Hmm,Tăng nhẹ,Hmm,Tăng nhẹ,Hmm,Hmm
+Monday 2019-10-14,Hmm,Giảm khá,Tăng nhẹ,Hmm,Tăng ổn,Giảm nhẹ,Tăng nhẹ,Hmm,Hmm,Giảm nhẹ,Hmm,Tăng ổn
+Tuesday 2019-10-15,Hmm,Hmm,Hmm,Hmm,Hmm,Giảm nhẹ,Hmm,Giảm nhẹ,Tăng ổn,Hmm,Giảm nhẹ,Giảm khá
+Wednesday 2019-10-16,Hmm,Hmm,Hmm,Tăng ổn,Hmm,Hmm,Giảm nhẹ,Hmm,Giảm nhẹ,Giảm khá,Giảm khá,Giảm nhẹ
+Thursday 2019-10-17,Hmm,Tăng nhẹ,Hmm,Giảm nhẹ,Hmm,Giảm nhẹ,Tăng nhẹ,Tăng ổn,Hmm,Hmm,Hmm,Hmm
+Friday 2019-10-18,Hmm,Giảm nhẹ,Tăng nhẹ,Hmm,Hmm,Hmm,Giảm khá,Giảm mạnh,Tăng nhẹ,Tăng nhẹ,Giảm nhẹ,Hmm
+Saturday 2019-10-19,Hmm,Giảm nhẹ,Tăng nhẹ,Giảm nhẹ,Hmm,Tăng ổn,Giảm nhẹ,Hmm,Giảm nhẹ,Tăng nhẹ,Hmm,Giảm khá
+Sunday 2019-10-20,Tăng nhẹ,Hmm,Hmm,Hmm,Giảm nhẹ,Hmm,Hmm,Hmm,Hmm,Tăng nhẹ,Tăng tốt,Tăng tốt
 Monday 2019-10-21,Hmm
