@@ -91,19 +91,27 @@ instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + token
                 'priceChange': cal
             }
         })
+        fs.writeFile('./ApiResult/' + tokenSymbol + '-' + withTokenSymbol +".json",  JSON.stringify(preProcessedData, null, 4), function(err) {
+
+            if(err) {
+                return console.log(err);
+            }
+
+            console.log('Api result: ' + tokenSymbol + '-' + withTokenSymbol + " was saved!");
+        });
         const processedData = chunkArrayInGroups(preProcessedData, 24);
         const titleBar = '-,' + processedData[0].map(e=> e.time).join(',') + '\n';
         const content = processedData.map(dailyInWeek => {
                 return dailyInWeek[0].date + ',' + dailyInWeek.map(daily => executingPrice(daily.priceChange, ExportResult.vns)).join(',') 
             }
         ).join('\n');
-        fs.writeFile(tokenSymbol + '-' + withTokenSymbol +".csv", titleBar + content, function(err) {
+        fs.writeFile('./AnalysisResult/' + tokenSymbol + '-' + withTokenSymbol +".csv", titleBar + content, function(err) {
 
             if(err) {
                 return console.log(err);
             }
 
-            console.log(tokenSymbol + '-' + withTokenSymbol + " was saved!");
+            console.log('Analysis result: ' + tokenSymbol + '-' + withTokenSymbol + " was saved!");
         });
     }).catch(err => console.log('Error: ',err));
 });
