@@ -2,7 +2,11 @@ const axios = require('axios');
 const moment = require('moment-timezone');
 const fs = require('fs');
 
-const tokenSymbol = 'LINK';
+const tokenSymbols = [
+    'BTC', 'ETH', 'LTC', 'BCH', 'BNB', 'ADA', 'XMR', 'LINK', 'DASH', 'NEO'
+]
+
+// const tokenSymbol = 'BTC';
 const withTokenSymbol = 'USDT';
 const apiKey = 'cdc591b1638966047a2fe76dd5b8460815685823fb0fcd9e2eb0cb71c34fb8f2';
 
@@ -31,18 +35,37 @@ function chunkArrayInGroups(arr, size) {
     return myArray;
 }
 
-function executingPrice(price){
-    return price > 0.4 && price <= 1 ? '🙂' :
-    price > 1 && price <= 2 ? '😀' : 
-    price > 2 && price <= 4 ? '😆' :  
-    price > 4 ? '🤩' : 
-    price < -0.4 && price >= -1 ? '🙁' :
-    price < -1 && price >= -2 ? '😨' :
-    price < -2 && price >= -4 ? '😱' :
-    price < -4 ? '🥶' : 
-    '😐'
+const ExportResult = {
+    emoji: 'Emoji',
+    vns: 'Tieng Viet',
+    emotion: "Emotion"
 }
 
+function executingPrice(price, exportTo = ExportResult.emoji){
+    if(exportTo == ExportResult.emoji) {
+        return price > 0.4 && price <= 1 ? '🙂' :
+        price > 1 && price <= 2 ? '😀' : 
+        price > 2 && price <= 4 ? '😆' :  
+        price > 4 ? '🤩' : 
+        price < -0.4 && price >= -1 ? '🙁' :
+        price < -1 && price >= -2 ? '😨' :
+        price < -2 && price >= -4 ? '😱' :
+        price < -4 ? '🥶' : 
+        '😐'
+    } else {
+        return price > 0.4 && price <= 1 ? 'Tăng nhẹ' :
+        price > 1 && price <= 2 ? 'Tăng ổn' : 
+        price > 2 && price <= 4 ? 'Tăng tốt' :  
+        price > 4 ? 'Wow!!!' : 
+        price < -0.4 && price >= -1 ? 'Giảm nhẹ' :
+        price < -1 && price >= -2 ? 'Giảm khá' :
+        price < -2 && price >= -4 ? 'Giảm mạnh' :
+        price < -4 ? 'What the *' : 
+        'Hmm'
+    }
+    
+}
+tokenSymbols.forEach(tokenSymbol => {
 instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + tokenSymbol + '&tsym=' + withTokenSymbol + '&toTs=1571590800' )
     .then(response => {
         const data = response.data.Data.Data;
@@ -71,15 +94,16 @@ instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + token
         const processedData = chunkArrayInGroups(preProcessedData, 24);
         const titleBar = '-,' + processedData[0].map(e=> e.time).join(',') + '\n';
         const content = processedData.map(dailyInWeek => {
-                return dailyInWeek[0].date + ',' + dailyInWeek.map(daily => executingPrice(daily.priceChange)).join(',') + '\n'
+                return dailyInWeek[0].date + ',' + dailyInWeek.map(daily => executingPrice(daily.priceChange, ExportResult.vns)).join(',') 
             }
-        );
-        fs.writeFile("result.csv", titleBar + content, function(err) {
+        ).join('\n');
+        fs.writeFile(tokenSymbol + '-' + withTokenSymbol +".csv", titleBar + content, function(err) {
 
             if(err) {
                 return console.log(err);
             }
 
-            console.log("The file was saved!");
+            console.log(tokenSymbol + '-' + withTokenSymbol + " was saved!");
         });
     }).catch(err => console.log('Error: ',err));
+});
