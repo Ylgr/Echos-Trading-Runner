@@ -3,7 +3,17 @@ const moment = require('moment-timezone');
 const fs = require('fs');
 
 const tokenSymbols = [
-    'BTC', 'ETH', 'LTC', 'BCH', 'BNB', 'ADA', 'XMR', 'LINK', 'DASH', 'NEO'
+    'BTC', 
+    'ETH', 
+    'LTC', 
+    'BCH', 
+    'BNB', 
+    'ADA', 
+    'XMR', 
+    'LINK', 
+    'DASH', 
+    'NEO',
+    'ATOM'
 ]
 
 // const tokenSymbol = 'BTC';
@@ -87,11 +97,11 @@ function processingContent(data, exportType = ExportType.default, excutedTime = 
     }).join('\n');
 }
 
-const toTS = '1571590800';
+const toTS = '1572195600'; // oct 28th 2019
 const aggregate = '2';
 const aggregatePredictableTimePeriods = 'false'
 tokenSymbols.forEach(tokenSymbol => {
-instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + tokenSymbol + '&tsym=' + withTokenSymbol + '&toTs=' + toTS + '&aggregate=' + aggregate + '&aggregatePredictableTimePeriods=' + aggregatePredictableTimePeriods)
+instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + tokenSymbol + '&tsym=' + withTokenSymbol + '&toTs=' + toTS + '&aggregate=' + aggregate + '&aggregatePredictableTimePeriods=' + aggregatePredictableTimePeriods + '&limit=840')
     .then(response => {
         const data = response.data.Data.Data;
         const preProcessedData = data.map( (curData, index) => {
