@@ -13,7 +13,12 @@ const tokenSymbols = [
     'LINK', 
     'DASH', 
     'NEO',
-    'ATOM'
+    'ATOM',
+    'VET',
+    'EOS',
+    'ONT',
+    'XLM',
+    'XRP'
 ]
 
 // const tokenSymbol = 'BTC';
@@ -56,7 +61,10 @@ const ExecutedTime = {
     hourly: 'Hourly',
     weekly: 'Weekly'
 }
-
+const CaculatetdElement = {
+    openClose: 'Open - Close',
+    highLow: 'High - Low'
+}
 function executingPrice(price, exportTo = ExportType.default){
     if(exportTo == ExportType.emoji) {
         return price > 0.3 && price <= 1 ? '🙂' :
@@ -82,6 +90,16 @@ function executingPrice(price, exportTo = ExportType.default){
     
 }
 
+function executingHighLow(price, exportTo = ExportType.default){
+    if (ExportType.vns) {
+        return price > 0.6 && price <= 1.2 ? 'Nhẹ' :
+        price > 1.2 && price <= 2.8 ? 'Khá' : 
+        price > 2.8 && price <= 5 ? 'Mạnh' :  
+        price > 5 ? 'Wow!!!' : 
+        '-'
+    } else price
+    
+}
 function writeToFile(name, content) {
     fs.writeFile(name, content, function(err) {
         if(err) {
@@ -91,9 +109,16 @@ function writeToFile(name, content) {
     });
 }
 
-function processingContent(data, exportType = ExportType.default, excutedTime = ExecutedTime.hourly) {
+function processingContent(data, exportType = ExportType.default, caculatedBy = CaculatetdElement.openClose ,excutedTime = ExecutedTime.hourly) {
     return data.map(dailyInWeek => {
-        return dailyInWeek[0].date + ',' + dailyInWeek.map(daily => executingPrice(daily.priceChange, exportType)).join(',') 
+        return dailyInWeek[0].date + ',' + dailyInWeek.map(daily => {
+            if(caculatedBy == CaculatetdElement.highLow){
+                return executingHighLow(daily.priceChange, exportType);
+            } else {
+                return executingPrice(daily.priceChange, exportType);
+            }
+             
+        }).join(',')
     }).join('\n');
 }
 
@@ -134,8 +159,10 @@ instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + token
         if(aggregate/24 < 1) {
             const processedData = chunkArrayInGroups(preProcessedData, 24 / aggregate);
             const titleBar = '-,' + processedData[0].map(e => e.time).join(',') + '\n';
-            const content = processingContent(processedData, ExportType.vns);
-            writeToFile('./AnalysisResult/open-close/feeling/' + tokenSymbol + '-' + withTokenSymbol +".csv", titleBar + content);
+            const contentOpenClose = processingContent(processedData, ExportType.vns, CaculatetdElement.openClose);
+            const contentHighLow = processingContent(processedData, ExportType.vns, CaculatetdElement.highLow);
+            writeToFile('./AnalysisResult/open-close/feeling/' + tokenSymbol + '-' + withTokenSymbol +".csv", titleBar + contentOpenClose);
+            writeToFile('./AnalysisResult/high-low/feeling/' + tokenSymbol + '-' + withTokenSymbol +".csv", titleBar + contentHighLow);
         } else {
             const processedData = chunkArrayInGroups(preProcessedData, 7);
             const titleBar = '-,' + processedData[0].map(e => e.date).join(',') + '\n';
