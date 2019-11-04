@@ -122,7 +122,7 @@ function processingContent(data, exportType = ExportType.default, caculatedBy = 
     }).join('\n');
 }
 
-const toTS = '1572195600'; // oct 28th 2019
+const toTS = '1572800400'; // Monday, November 4, 2019 12:00:00 AM GMT+07:00
 const aggregate = '2';
 const aggregatePredictableTimePeriods = 'false'
 tokenSymbols.forEach(tokenSymbol => {
