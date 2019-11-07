@@ -18,9 +18,11 @@ const tokenSymbols = [
     'EOS',
     'ONT',
     'XLM',
-    'XRP'
+    'XRP',
+    'VET',
+    'BAT'
 ]
-
+const toTS = '1573059600'; // Thuday, November 7, 2019 12:00:00 AM GMT+07:00
 // const tokenSymbol = 'BTC';
 const withTokenSymbol = 'USDT';
 const apiKey = 'cdc591b1638966047a2fe76dd5b8460815685823fb0fcd9e2eb0cb71c34fb8f2';
@@ -122,7 +124,6 @@ function processingContent(data, exportType = ExportType.default, caculatedBy = 
     }).join('\n');
 }
 
-const toTS = '1572800400'; // Monday, November 4, 2019 12:00:00 AM GMT+07:00
 const aggregate = '2';
 const aggregatePredictableTimePeriods = 'false'
 tokenSymbols.forEach(tokenSymbol => {
