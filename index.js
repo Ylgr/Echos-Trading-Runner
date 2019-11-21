@@ -20,9 +20,10 @@ const tokenSymbols = [
     'XLM',
     'XRP',
     'VET',
-    'BAT'
+    'BAT',
+    'IOST'
 ]
-const toTS = '1573059600'; // Thuday, November 7, 2019 12:00:00 AM GMT+07:00
+const toTS = '1574010000'; // Monday, November 18, 2019 12:00:00 AM GMT+07:00
 // const tokenSymbol = 'BTC';
 const withTokenSymbol = 'USDT';
 const apiKey = 'cdc591b1638966047a2fe76dd5b8460815685823fb0fcd9e2eb0cb71c34fb8f2';

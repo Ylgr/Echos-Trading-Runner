@@ -1,797 +1,5 @@
 [
     {
-        "date": "Thursday 2019-08-29",
-        "time": "00:00 - 02:00",
-        "priceChange": -5.633802816901412,
-        "priceChangeHighLow": 7.73415326395459
-    },
-    {
-        "date": "Thursday 2019-08-29",
-        "time": "02:00 - 04:00",
-        "priceChange": -1.958955223880594,
-        "priceChangeHighLow": 3.0447193149381455
-    },
-    {
-        "date": "Thursday 2019-08-29",
-        "time": "04:00 - 06:00",
-        "priceChange": 1.9505233111322455,
-        "priceChangeHighLow": 2.094739347774349
-    },
-    {
-        "date": "Thursday 2019-08-29",
-        "time": "06:00 - 08:00",
-        "priceChange": -2.2165188987400746,
-        "priceChangeHighLow": 2.2906227630637015
-    },
-    {
-        "date": "Thursday 2019-08-29",
-        "time": "08:00 - 10:00",
-        "priceChange": -0.5487950369840241,
-        "priceChangeHighLow": 1.373163093230541
-    },
-    {
-        "date": "Thursday 2019-08-29",
-        "time": "10:00 - 12:00",
-        "priceChange": -1.6074856046065313,
-        "priceChangeHighLow": 2.643818849449194
-    },
-    {
-        "date": "Thursday 2019-08-29",
-        "time": "12:00 - 14:00",
-        "priceChange": 0.4876859302609133,
-        "priceChangeHighLow": 2.7288514016373075
-    },
-    {
-        "date": "Thursday 2019-08-29",
-        "time": "14:00 - 16:00",
-        "priceChange": 0.07279786459598152,
-        "priceChangeHighLow": 2.736318407960195
-    },
-    {
-        "date": "Thursday 2019-08-29",
-        "time": "16:00 - 18:00",
-        "priceChange": -0.8486905916585914,
-        "priceChangeHighLow": 1.3712047012732524
-    },
-    {
-        "date": "Thursday 2019-08-29",
-        "time": "18:00 - 20:00",
-        "priceChange": 0.39129371484471487,
-        "priceChangeHighLow": 1.0056414029924021
-    },
-    {
-        "date": "Thursday 2019-08-29",
-        "time": "20:00 - 22:00",
-        "priceChange": -0.8282582216808813,
-        "priceChangeHighLow": 1.253071253071249
-    },
-    {
-        "date": "Thursday 2019-08-29",
-        "time": "22:00 - 00:00",
-        "priceChange": 0.39302382706952566,
-        "priceChangeHighLow": 1.5229673298943853
-    },
-    {
-        "date": "Friday 2019-08-30",
-        "time": "00:00 - 02:00",
-        "priceChange": 0.04893564962073398,
-        "priceChangeHighLow": 1.02941176470587
-    },
-    {
-        "date": "Friday 2019-08-30",
-        "time": "02:00 - 04:00",
-        "priceChange": 0.4891171435558829,
-        "priceChangeHighLow": 1.030674846625776
-    },
-    {
-        "date": "Friday 2019-08-30",
-        "time": "04:00 - 06:00",
-        "priceChange": -0.8031151131662215,
-        "priceChangeHighLow": 1.4247113731269931
-    },
-    {
-        "date": "Friday 2019-08-30",
-        "time": "06:00 - 08:00",
-        "priceChange": -1.4965652600588673,
-        "priceChangeHighLow": 2.121817274088867
-    },
-    {
-        "date": "Friday 2019-08-30",
-        "time": "08:00 - 10:00",
-        "priceChange": 0.5479452054794384,
-        "priceChangeHighLow": 1.994445847008333
-    },
-    {
-        "date": "Friday 2019-08-30",
-        "time": "10:00 - 12:00",
-        "priceChange": 1.1642308645033483,
-        "priceChangeHighLow": 1.8380526577247958
-    },
-    {
-        "date": "Friday 2019-08-30",
-        "time": "12:00 - 14:00",
-        "priceChange": -1.689520078354545,
-        "priceChangeHighLow": 2.073963018490748
-    },
-    {
-        "date": "Friday 2019-08-30",
-        "time": "14:00 - 16:00",
-        "priceChange": 0.32378580323785777,
-        "priceChangeHighLow": 1.0994502748625627
-    },
-    {
-        "date": "Friday 2019-08-30",
-        "time": "16:00 - 18:00",
-        "priceChange": 1.4399205561072466,
-        "priceChangeHighLow": 1.4651105040973436
-    },
-    {
-        "date": "Friday 2019-08-30",
-        "time": "18:00 - 20:00",
-        "priceChange": 0.12236906510033764,
-        "priceChangeHighLow": 1.0818785345463429
-    },
-    {
-        "date": "Friday 2019-08-30",
-        "time": "20:00 - 22:00",
-        "priceChange": 0.09777560498654762,
-        "priceChangeHighLow": 0.8333333333333163
-    },
-    {
-        "date": "Friday 2019-08-30",
-        "time": "22:00 - 00:00",
-        "priceChange": -0.24420024420023426,
-        "priceChangeHighLow": 1.1282805984792748
-    },
-    {
-        "date": "Saturday 2019-08-31",
-        "time": "00:00 - 02:00",
-        "priceChange": -0.24479804161567834,
-        "priceChangeHighLow": 0.7118311242022461
-    },
-    {
-        "date": "Saturday 2019-08-31",
-        "time": "02:00 - 04:00",
-        "priceChange": 1.374233128834368,
-        "priceChangeHighLow": 2.349159248269052
-    },
-    {
-        "date": "Saturday 2019-08-31",
-        "time": "04:00 - 06:00",
-        "priceChange": -0.3146937787460661,
-        "priceChangeHighLow": 0.9713453132588661
-    },
-    {
-        "date": "Saturday 2019-08-31",
-        "time": "06:00 - 08:00",
-        "priceChange": 0.3156872268091304,
-        "priceChangeHighLow": 2.0231926967678167
-    },
-    {
-        "date": "Saturday 2019-08-31",
-        "time": "08:00 - 10:00",
-        "priceChange": 0.4599370612442488,
-        "priceChangeHighLow": 0.7515151515151461
-    },
-    {
-        "date": "Saturday 2019-08-31",
-        "time": "10:00 - 12:00",
-        "priceChange": 0.6265060240963851,
-        "priceChangeHighLow": 1.2097749818533678
-    },
-    {
-        "date": "Saturday 2019-08-31",
-        "time": "12:00 - 14:00",
-        "priceChange": -0.47892720306513537,
-        "priceChangeHighLow": 0.8904933814681245
-    },
-    {
-        "date": "Saturday 2019-08-31",
-        "time": "14:00 - 16:00",
-        "priceChange": -1.3715110683349316,
-        "priceChangeHighLow": 1.5613564283971655
-    },
-    {
-        "date": "Saturday 2019-08-31",
-        "time": "16:00 - 18:00",
-        "priceChange": -0.268358136130778,
-        "priceChangeHighLow": 0.7371007371007497
-    },
-    {
-        "date": "Saturday 2019-08-31",
-        "time": "18:00 - 20:00",
-        "priceChange": 0,
-        "priceChangeHighLow": 0.6881297616121959
-    },
-    {
-        "date": "Saturday 2019-08-31",
-        "time": "20:00 - 22:00",
-        "priceChange": -0.34246575342463936,
-        "priceChangeHighLow": 1.0813467682477425
-    },
-    {
-        "date": "Saturday 2019-08-31",
-        "time": "22:00 - 00:00",
-        "priceChange": 0.1718213058419259,
-        "priceChangeHighLow": 0.9840098400984035
-    },
-    {
-        "date": "Sunday 2019-09-01",
-        "time": "00:00 - 02:00",
-        "priceChange": -1.15167851016908,
-        "priceChangeHighLow": 1.8656716417910335
-    },
-    {
-        "date": "Sunday 2019-09-01",
-        "time": "02:00 - 04:00",
-        "priceChange": -0.7436787307883121,
-        "priceChangeHighLow": 1.832789354757702
-    },
-    {
-        "date": "Sunday 2019-09-01",
-        "time": "04:00 - 06:00",
-        "priceChange": 2.997002997003005,
-        "priceChangeHighLow": 3.7688442211055264
-    },
-    {
-        "date": "Sunday 2019-09-01",
-        "time": "06:00 - 08:00",
-        "priceChange": -1.430649854510185,
-        "priceChangeHighLow": 1.7466174661746587
-    },
-    {
-        "date": "Sunday 2019-09-01",
-        "time": "08:00 - 10:00",
-        "priceChange": -0.24600246002461157,
-        "priceChangeHighLow": 0.8906481939633955
-    },
-    {
-        "date": "Sunday 2019-09-01",
-        "time": "10:00 - 12:00",
-        "priceChange": 0.2712700369913833,
-        "priceChangeHighLow": 0.7659995058067649
-    },
-    {
-        "date": "Sunday 2019-09-01",
-        "time": "12:00 - 14:00",
-        "priceChange": 0,
-        "priceChangeHighLow": 0.8142116950407117
-    },
-    {
-        "date": "Sunday 2019-09-01",
-        "time": "14:00 - 16:00",
-        "priceChange": -0.1475651746187882,
-        "priceChangeHighLow": 1.3379583746283508
-    },
-    {
-        "date": "Sunday 2019-09-01",
-        "time": "16:00 - 18:00",
-        "priceChange": -0.4187192118226729,
-        "priceChangeHighLow": 0.9160683337459694
-    },
-    {
-        "date": "Sunday 2019-09-01",
-        "time": "18:00 - 20:00",
-        "priceChange": 0.7172891417264502,
-        "priceChangeHighLow": 0.7916872835230278
-    },
-    {
-        "date": "Sunday 2019-09-01",
-        "time": "20:00 - 22:00",
-        "priceChange": -0.19646365422397333,
-        "priceChangeHighLow": 0.7659995058067649
-    },
-    {
-        "date": "Sunday 2019-09-01",
-        "time": "22:00 - 00:00",
-        "priceChange": -0.4921259842519698,
-        "priceChangeHighLow": 1.6827517941103558
-    },
-    {
-        "date": "Monday 2019-09-02",
-        "time": "00:00 - 02:00",
-        "priceChange": 0.5934718100890137,
-        "priceChangeHighLow": 1.787487586891758
-    },
-    {
-        "date": "Monday 2019-09-02",
-        "time": "02:00 - 04:00",
-        "priceChange": 0.3195673549656062,
-        "priceChangeHighLow": 1.1890017339608696
-    },
-    {
-        "date": "Monday 2019-09-02",
-        "time": "04:00 - 06:00",
-        "priceChange": 0.8086253369272034,
-        "priceChangeHighLow": 1.6240157480314983
-    },
-    {
-        "date": "Monday 2019-09-02",
-        "time": "06:00 - 08:00",
-        "priceChange": -0.19445794846862732,
-        "priceChangeHighLow": 0.9558823529411757
-    },
-    {
-        "date": "Monday 2019-09-02",
-        "time": "08:00 - 10:00",
-        "priceChange": 0.6575742815392136,
-        "priceChangeHighLow": 0.7793472966390625
-    },
-    {
-        "date": "Monday 2019-09-02",
-        "time": "10:00 - 12:00",
-        "priceChange": -0.7742559883861789,
-        "priceChangeHighLow": 1.5651748593788168
-    },
-    {
-        "date": "Monday 2019-09-02",
-        "time": "12:00 - 14:00",
-        "priceChange": 0.024384296513048836,
-        "priceChangeHighLow": 0.4396678065461599
-    },
-    {
-        "date": "Monday 2019-09-02",
-        "time": "14:00 - 16:00",
-        "priceChange": 2.9985372988785923,
-        "priceChangeHighLow": 3.2250183239677326
-    },
-    {
-        "date": "Monday 2019-09-02",
-        "time": "16:00 - 18:00",
-        "priceChange": -0.37869822485205973,
-        "priceChangeHighLow": 1.0944563407090182
-    },
-    {
-        "date": "Monday 2019-09-02",
-        "time": "18:00 - 20:00",
-        "priceChange": 1.7343787122832062,
-        "priceChangeHighLow": 2.3078753271472725
-    },
-    {
-        "date": "Monday 2019-09-02",
-        "time": "20:00 - 22:00",
-        "priceChange": 0.07006071929004042,
-        "priceChangeHighLow": 0.7517030772844705
-    },
-    {
-        "date": "Monday 2019-09-02",
-        "time": "22:00 - 00:00",
-        "priceChange": -0.28004667444573766,
-        "priceChangeHighLow": 1.15266996000942
-    },
-    {
-        "date": "Tuesday 2019-09-03",
-        "time": "00:00 - 02:00",
-        "priceChange": 2.9955534753100985,
-        "priceChangeHighLow": 3.535471786466872
-    },
-    {
-        "date": "Tuesday 2019-09-03",
-        "time": "02:00 - 04:00",
-        "priceChange": 0.36355373778685574,
-        "priceChangeHighLow": 0.8414828292017218
-    },
-    {
-        "date": "Tuesday 2019-09-03",
-        "time": "04:00 - 06:00",
-        "priceChange": -1.8564636631197557,
-        "priceChangeHighLow": 3.210903210903196
-    },
-    {
-        "date": "Tuesday 2019-09-03",
-        "time": "06:00 - 08:00",
-        "priceChange": 0.3460207612456606,
-        "priceChangeHighLow": 1.087207957436969
-    },
-    {
-        "date": "Tuesday 2019-09-03",
-        "time": "08:00 - 10:00",
-        "priceChange": -0.45977011494252995,
-        "priceChangeHighLow": 1.1384758364312368
-    },
-    {
-        "date": "Tuesday 2019-09-03",
-        "time": "10:00 - 12:00",
-        "priceChange": 0.023094688221712074,
-        "priceChangeHighLow": 0.971997222865066
-    },
-    {
-        "date": "Tuesday 2019-09-03",
-        "time": "12:00 - 14:00",
-        "priceChange": -0.5541445393673451,
-        "priceChangeHighLow": 1.1379470506270422
-    },
-    {
-        "date": "Tuesday 2019-09-03",
-        "time": "14:00 - 16:00",
-        "priceChange": -0.27861620617598926,
-        "priceChangeHighLow": 1.5377446411929192
-    },
-    {
-        "date": "Tuesday 2019-09-03",
-        "time": "16:00 - 18:00",
-        "priceChange": 0.44237485448195385,
-        "priceChangeHighLow": 1.1644154634373474
-    },
-    {
-        "date": "Tuesday 2019-09-03",
-        "time": "18:00 - 20:00",
-        "priceChange": 0.7649513212795559,
-        "priceChangeHighLow": 1.2104283054003715
-    },
-    {
-        "date": "Tuesday 2019-09-03",
-        "time": "20:00 - 22:00",
-        "priceChange": -0.09201748332184335,
-        "priceChangeHighLow": 1.5780923648178111
-    },
-    {
-        "date": "Tuesday 2019-09-03",
-        "time": "22:00 - 00:00",
-        "priceChange": 0.06907667510938058,
-        "priceChangeHighLow": 1.1329479768786228
-    },
-    {
-        "date": "Wednesday 2019-09-04",
-        "time": "00:00 - 02:00",
-        "priceChange": 0.29912563276576143,
-        "priceChangeHighLow": 1.2271359110905324
-    },
-    {
-        "date": "Wednesday 2019-09-04",
-        "time": "02:00 - 04:00",
-        "priceChange": -2.31704519385181,
-        "priceChangeHighLow": 3.872653837015917
-    },
-    {
-        "date": "Wednesday 2019-09-04",
-        "time": "04:00 - 06:00",
-        "priceChange": 1.315171441991557,
-        "priceChangeHighLow": 1.3627819548872155
-    },
-    {
-        "date": "Wednesday 2019-09-04",
-        "time": "06:00 - 08:00",
-        "priceChange": -0.9040333796940188,
-        "priceChangeHighLow": 2.2506515043828585
-    },
-    {
-        "date": "Wednesday 2019-09-04",
-        "time": "08:00 - 10:00",
-        "priceChange": -0.9824561403508858,
-        "priceChangeHighLow": 1.3017751479290027
-    },
-    {
-        "date": "Wednesday 2019-09-04",
-        "time": "10:00 - 12:00",
-        "priceChange": 0.54334987006852,
-        "priceChangeHighLow": 1.6389548693586606
-    },
-    {
-        "date": "Wednesday 2019-09-04",
-        "time": "12:00 - 14:00",
-        "priceChange": -0.023496240601506877,
-        "priceChangeHighLow": 1.1562057574327615
-    },
-    {
-        "date": "Wednesday 2019-09-04",
-        "time": "14:00 - 16:00",
-        "priceChange": -0.4700352526439495,
-        "priceChangeHighLow": 0.851063829787224
-    },
-    {
-        "date": "Wednesday 2019-09-04",
-        "time": "16:00 - 18:00",
-        "priceChange": 1.204250295159382,
-        "priceChangeHighLow": 1.607185062632935
-    },
-    {
-        "date": "Wednesday 2019-09-04",
-        "time": "18:00 - 20:00",
-        "priceChange": -0.6299580027998161,
-        "priceChangeHighLow": 1.0813352139163148
-    },
-    {
-        "date": "Wednesday 2019-09-04",
-        "time": "20:00 - 22:00",
-        "priceChange": -1.2913829537449988,
-        "priceChangeHighLow": 1.4289116456299158
-    },
-    {
-        "date": "Wednesday 2019-09-04",
-        "time": "22:00 - 00:00",
-        "priceChange": -0.04757373929591497,
-        "priceChangeHighLow": 1.5122419587133864
-    },
-    {
-        "date": "Thursday 2019-09-05",
-        "time": "00:00 - 02:00",
-        "priceChange": -1.308900523560218,
-        "priceChangeHighLow": 2.226524685382383
-    },
-    {
-        "date": "Thursday 2019-09-05",
-        "time": "02:00 - 04:00",
-        "priceChange": -0.4822763443453112,
-        "priceChangeHighLow": 1.382488479262667
-    },
-    {
-        "date": "Thursday 2019-09-05",
-        "time": "04:00 - 06:00",
-        "priceChange": -0.5088441967530729,
-        "priceChangeHighLow": 1.3929618768328387
-    },
-    {
-        "date": "Thursday 2019-09-05",
-        "time": "06:00 - 08:00",
-        "priceChange": 0.9498295177788595,
-        "priceChangeHighLow": 1.9612650159352834
-    },
-    {
-        "date": "Thursday 2019-09-05",
-        "time": "08:00 - 10:00",
-        "priceChange": -0.6031363088057864,
-        "priceChangeHighLow": 1.3164310092637794
-    },
-    {
-        "date": "Thursday 2019-09-05",
-        "time": "10:00 - 12:00",
-        "priceChange": 0.21844660194173443,
-        "priceChangeHighLow": 1.1925042589437924
-    },
-    {
-        "date": "Thursday 2019-09-05",
-        "time": "12:00 - 14:00",
-        "priceChange": -0.19375151368370536,
-        "priceChangeHighLow": 1.0464833292772087
-    },
-    {
-        "date": "Thursday 2019-09-05",
-        "time": "14:00 - 16:00",
-        "priceChange": -0.19412763892257529,
-        "priceChangeHighLow": 1.1216776396000985
-    },
-    {
-        "date": "Thursday 2019-09-05",
-        "time": "16:00 - 18:00",
-        "priceChange": -0.9482129832239234,
-        "priceChangeHighLow": 1.3776137761377523
-    },
-    {
-        "date": "Thursday 2019-09-05",
-        "time": "18:00 - 20:00",
-        "priceChange": -0.44182621502210734,
-        "priceChangeHighLow": 1.5613382899628174
-    },
-    {
-        "date": "Thursday 2019-09-05",
-        "time": "20:00 - 22:00",
-        "priceChange": -0.3944773175542289,
-        "priceChangeHighLow": 1.041150223103607
-    },
-    {
-        "date": "Thursday 2019-09-05",
-        "time": "22:00 - 00:00",
-        "priceChange": -0.17326732673267478,
-        "priceChangeHighLow": 1.6426082628173242
-    },
-    {
-        "date": "Friday 2019-09-06",
-        "time": "00:00 - 02:00",
-        "priceChange": -0.396727002231599,
-        "priceChangeHighLow": 1.9764823617713305
-    },
-    {
-        "date": "Friday 2019-09-06",
-        "time": "02:00 - 04:00",
-        "priceChange": -2.987303958177742,
-        "priceChangeHighLow": 5.487004463113678
-    },
-    {
-        "date": "Friday 2019-09-06",
-        "time": "04:00 - 06:00",
-        "priceChange": -0.30792917628944977,
-        "priceChangeHighLow": 1.425609123898391
-    },
-    {
-        "date": "Friday 2019-09-06",
-        "time": "06:00 - 08:00",
-        "priceChange": 0.6177606177606216,
-        "priceChangeHighLow": 1.3899613899613847
-    },
-    {
-        "date": "Friday 2019-09-06",
-        "time": "08:00 - 10:00",
-        "priceChange": 0.5883857764133943,
-        "priceChangeHighLow": 0.9723643807574166
-    },
-    {
-        "date": "Friday 2019-09-06",
-        "time": "10:00 - 12:00",
-        "priceChange": 1.3479145473041734,
-        "priceChangeHighLow": 2.1532940271725165
-    },
-    {
-        "date": "Friday 2019-09-06",
-        "time": "12:00 - 14:00",
-        "priceChange": -2.0828105395232055,
-        "priceChangeHighLow": 2.8085544962638425
-    },
-    {
-        "date": "Friday 2019-09-06",
-        "time": "14:00 - 16:00",
-        "priceChange": -1.0507432086109747,
-        "priceChangeHighLow": 2.2112382934443287
-    },
-    {
-        "date": "Friday 2019-09-06",
-        "time": "16:00 - 18:00",
-        "priceChange": 1.1137011137011155,
-        "priceChangeHighLow": 1.4278296988577344
-    },
-    {
-        "date": "Friday 2019-09-06",
-        "time": "18:00 - 20:00",
-        "priceChange": -0.20491803278687912,
-        "priceChangeHighLow": 1.4167954662545172
-    },
-    {
-        "date": "Friday 2019-09-06",
-        "time": "20:00 - 22:00",
-        "priceChange": -0.8213552361396392,
-        "priceChangeHighLow": 1.8134715025906782
-    },
-    {
-        "date": "Friday 2019-09-06",
-        "time": "22:00 - 00:00",
-        "priceChange": -1.0610766045548603,
-        "priceChangeHighLow": 4.067433770404073
-    },
-    {
-        "date": "Saturday 2019-09-07",
-        "time": "00:00 - 02:00",
-        "priceChange": -0.2877321475281234,
-        "priceChangeHighLow": 3.6977058029689602
-    },
-    {
-        "date": "Saturday 2019-09-07",
-        "time": "02:00 - 04:00",
-        "priceChange": -1.3903462749212923,
-        "priceChangeHighLow": 3.376553214478663
-    },
-    {
-        "date": "Saturday 2019-09-07",
-        "time": "04:00 - 06:00",
-        "priceChange": 0.31923383878690764,
-        "priceChangeHighLow": 1.0641127959563625
-    },
-    {
-        "date": "Saturday 2019-09-07",
-        "time": "06:00 - 08:00",
-        "priceChange": -1.4054627419782577,
-        "priceChangeHighLow": 2.099596231493942
-    },
-    {
-        "date": "Saturday 2019-09-07",
-        "time": "08:00 - 10:00",
-        "priceChange": 1.8289402904787497,
-        "priceChangeHighLow": 1.990852838310473
-    },
-    {
-        "date": "Saturday 2019-09-07",
-        "time": "10:00 - 12:00",
-        "priceChange": -0.6867406233491807,
-        "priceChangeHighLow": 1.3926084627745037
-    },
-    {
-        "date": "Saturday 2019-09-07",
-        "time": "12:00 - 14:00",
-        "priceChange": -0.3457446808510636,
-        "priceChangeHighLow": 1.2641204948897302
-    },
-    {
-        "date": "Saturday 2019-09-07",
-        "time": "14:00 - 16:00",
-        "priceChange": 1.2543368027755584,
-        "priceChangeHighLow": 2.6498929336188355
-    },
-    {
-        "date": "Saturday 2019-09-07",
-        "time": "16:00 - 18:00",
-        "priceChange": -0.4217185028993135,
-        "priceChangeHighLow": 1.5923566878980817
-    },
-    {
-        "date": "Saturday 2019-09-07",
-        "time": "18:00 - 20:00",
-        "priceChange": 0.741132874536787,
-        "priceChangeHighLow": 1.6980631467232639
-    },
-    {
-        "date": "Saturday 2019-09-07",
-        "time": "20:00 - 22:00",
-        "priceChange": 1.1823436678927983,
-        "priceChangeHighLow": 1.5518148342977387
-    },
-    {
-        "date": "Saturday 2019-09-07",
-        "time": "22:00 - 00:00",
-        "priceChange": -0.18177096857958006,
-        "priceChangeHighLow": 2.040816326530611
-    },
-    {
-        "date": "Sunday 2019-09-08",
-        "time": "00:00 - 02:00",
-        "priceChange": 1.248699271592088,
-        "priceChangeHighLow": 1.614583333333333
-    },
-    {
-        "date": "Sunday 2019-09-08",
-        "time": "02:00 - 04:00",
-        "priceChange": -1.361767728674206,
-        "priceChangeHighLow": 1.5893694632621234
-    },
-    {
-        "date": "Sunday 2019-09-08",
-        "time": "04:00 - 06:00",
-        "priceChange": 0.33862985152383407,
-        "priceChangeHighLow": 1.359121798222686
-    },
-    {
-        "date": "Sunday 2019-09-08",
-        "time": "06:00 - 08:00",
-        "priceChange": 0.44132917964693896,
-        "priceChangeHighLow": 1.385258755880818
-    },
-    {
-        "date": "Sunday 2019-09-08",
-        "time": "08:00 - 10:00",
-        "priceChange": 0.3101576634789315,
-        "priceChangeHighLow": 0.5692108667529078
-    },
-    {
-        "date": "Sunday 2019-09-08",
-        "time": "10:00 - 12:00",
-        "priceChange": 0.979129090440604,
-        "priceChangeHighLow": 2.3015257305404733
-    },
-    {
-        "date": "Sunday 2019-09-08",
-        "time": "12:00 - 14:00",
-        "priceChange": 1.658586374075018,
-        "priceChangeHighLow": 1.8395503321410327
-    },
-    {
-        "date": "Sunday 2019-09-08",
-        "time": "14:00 - 16:00",
-        "priceChange": -1.2048192771084196,
-        "priceChangeHighLow": 1.8650996423096615
-    },
-    {
-        "date": "Sunday 2019-09-08",
-        "time": "16:00 - 18:00",
-        "priceChange": 0.2032520325203081,
-        "priceChangeHighLow": 1.2535175236633298
-    },
-    {
-        "date": "Sunday 2019-09-08",
-        "time": "18:00 - 20:00",
-        "priceChange": -1.3691683569979665,
-        "priceChangeHighLow": 2.1232522009321495
-    },
-    {
-        "date": "Sunday 2019-09-08",
-        "time": "20:00 - 22:00",
-        "priceChange": 1.5167095115681353,
-        "priceChangeHighLow": 2.172788411795145
-    },
-    {
-        "date": "Sunday 2019-09-08",
-        "time": "22:00 - 00:00",
-        "priceChange": 0.43048873132437715,
-        "priceChangeHighLow": 1.687979539641946
-    },
-    {
         "date": "Monday 2019-09-09",
         "time": "00:00 - 02:00",
         "priceChange": 0.4034291477559352,
@@ -5041,8 +4249,800 @@
     },
     {
         "date": "Thursday 2019-11-07",
+        "time": "00:00 - 02:00",
+        "priceChange": -0.9365853658536644,
+        "priceChangeHighLow": 1.2223974763406853
+    },
+    {
+        "date": "Thursday 2019-11-07",
+        "time": "02:00 - 04:00",
+        "priceChange": 0.5909001378767089,
+        "priceChangeHighLow": 1.222638532833769
+    },
+    {
+        "date": "Thursday 2019-11-07",
+        "time": "04:00 - 06:00",
+        "priceChange": 3.7008028196592897,
+        "priceChangeHighLow": 4.757224297228229
+    },
+    {
+        "date": "Thursday 2019-11-07",
+        "time": "06:00 - 08:00",
+        "priceChange": -1.7749244712991,
+        "priceChangeHighLow": 2.1407907425265185
+    },
+    {
+        "date": "Thursday 2019-11-07",
+        "time": "08:00 - 10:00",
+        "priceChange": 2.44136870434449,
+        "priceChangeHighLow": 3.732204694113115
+    },
+    {
+        "date": "Thursday 2019-11-07",
+        "time": "10:00 - 12:00",
+        "priceChange": 1.1071495590167015,
+        "priceChangeHighLow": 1.810637495284793
+    },
+    {
+        "date": "Thursday 2019-11-07",
+        "time": "12:00 - 14:00",
+        "priceChange": -1.8930957683741745,
+        "priceChangeHighLow": 4.064577397910743
+    },
+    {
+        "date": "Thursday 2019-11-07",
+        "time": "14:00 - 16:00",
+        "priceChange": 3.1971244797578486,
+        "priceChangeHighLow": 4.367641473604257
+    },
+    {
+        "date": "Thursday 2019-11-07",
+        "time": "16:00 - 18:00",
+        "priceChange": -5.481209899175065,
+        "priceChangeHighLow": 6.931662424123738
+    },
+    {
+        "date": "Thursday 2019-11-07",
+        "time": "18:00 - 20:00",
+        "priceChange": -1.4546159813809234,
+        "priceChangeHighLow": 3.975229724330811
+    },
+    {
+        "date": "Thursday 2019-11-07",
+        "time": "20:00 - 22:00",
+        "priceChange": 11.808699074985253,
+        "priceChangeHighLow": 17.133280757097793
+    },
+    {
+        "date": "Thursday 2019-11-07",
+        "time": "22:00 - 00:00",
+        "priceChange": -1.971483893680692,
+        "priceChangeHighLow": 3.486901535682016
+    },
+    {
+        "date": "Friday 2019-11-08",
+        "time": "00:00 - 02:00",
+        "priceChange": 2.0290896031603562,
+        "priceChangeHighLow": 2.827809798270894
+    },
+    {
+        "date": "Friday 2019-11-08",
+        "time": "02:00 - 04:00",
+        "priceChange": -0.15839493136220215,
+        "priceChangeHighLow": 3.052893148739799
+    },
+    {
+        "date": "Friday 2019-11-08",
+        "time": "04:00 - 06:00",
+        "priceChange": -0.6698395910452994,
+        "priceChangeHighLow": 2.6362984218077394
+    },
+    {
+        "date": "Friday 2019-11-08",
+        "time": "06:00 - 08:00",
+        "priceChange": -0.8873114463176675,
+        "priceChangeHighLow": 1.8946228798267783
+    },
+    {
+        "date": "Friday 2019-11-08",
+        "time": "08:00 - 10:00",
+        "priceChange": 0.9847806624888158,
+        "priceChangeHighLow": 1.7597414257496857
+    },
+    {
+        "date": "Friday 2019-11-08",
+        "time": "10:00 - 12:00",
+        "priceChange": 0.7269503546099333,
+        "priceChangeHighLow": 3.5492457852706236
+    },
+    {
+        "date": "Friday 2019-11-08",
+        "time": "12:00 - 14:00",
+        "priceChange": 1.8834712198556496,
+        "priceChangeHighLow": 3.2554847841472068
+    },
+    {
+        "date": "Friday 2019-11-08",
+        "time": "14:00 - 16:00",
+        "priceChange": -1.537664132688315,
+        "priceChangeHighLow": 4.403734366743002
+    },
+    {
+        "date": "Friday 2019-11-08",
+        "time": "16:00 - 18:00",
+        "priceChange": -0.47376732760133555,
+        "priceChangeHighLow": 3.5015263063386577
+    },
+    {
+        "date": "Friday 2019-11-08",
+        "time": "18:00 - 20:00",
+        "priceChange": -0.8815232722143811,
+        "priceChangeHighLow": 2.3272466881489424
+    },
+    {
+        "date": "Friday 2019-11-08",
+        "time": "20:00 - 22:00",
+        "priceChange": -5.282817502668096,
+        "priceChangeHighLow": 8.114832535885183
+    },
+    {
+        "date": "Friday 2019-11-08",
+        "time": "22:00 - 00:00",
+        "priceChange": -0.48826291079812173,
+        "priceChangeHighLow": 2.327355971003428
+    },
+    {
+        "date": "Saturday 2019-11-09",
+        "time": "00:00 - 02:00",
+        "priceChange": 1.5663332704283779,
+        "priceChangeHighLow": 2.3273415326395432
+    },
+    {
+        "date": "Saturday 2019-11-09",
+        "time": "02:00 - 04:00",
+        "priceChange": -1.319212188777404,
+        "priceChangeHighLow": 1.5259984928409849
+    },
+    {
+        "date": "Saturday 2019-11-09",
+        "time": "04:00 - 06:00",
+        "priceChange": 0.45189229900208217,
+        "priceChangeHighLow": 1.4126954228668214
+    },
+    {
+        "date": "Saturday 2019-11-09",
+        "time": "06:00 - 08:00",
+        "priceChange": -3.5238987816307525,
+        "priceChangeHighLow": 5.230166503428009
+    },
+    {
+        "date": "Saturday 2019-11-09",
+        "time": "08:00 - 10:00",
+        "priceChange": 0.7577229454050899,
+        "priceChangeHighLow": 1.3265704252828614
+    },
+    {
+        "date": "Saturday 2019-11-09",
+        "time": "10:00 - 12:00",
+        "priceChange": -1.1183956806787485,
+        "priceChangeHighLow": 3.0608214849920965
+    },
+    {
+        "date": "Saturday 2019-11-09",
+        "time": "12:00 - 14:00",
+        "priceChange": 1.9305772230889262,
+        "priceChangeHighLow": 2.325127002735447
+    },
+    {
+        "date": "Saturday 2019-11-09",
+        "time": "14:00 - 16:00",
+        "priceChange": -0.9757030801607008,
+        "priceChangeHighLow": 1.5133876600698477
+    },
+    {
+        "date": "Saturday 2019-11-09",
+        "time": "16:00 - 18:00",
+        "priceChange": 1.4103554868624448,
+        "priceChangeHighLow": 2.145756814227721
+    },
+    {
+        "date": "Saturday 2019-11-09",
+        "time": "18:00 - 20:00",
+        "priceChange": -0.819203657839598,
+        "priceChangeHighLow": 1.1153846153846134
+    },
+    {
+        "date": "Saturday 2019-11-09",
+        "time": "20:00 - 22:00",
+        "priceChange": -0.46100653092584937,
+        "priceChangeHighLow": 1.7853677469435294
+    },
+    {
+        "date": "Saturday 2019-11-09",
+        "time": "22:00 - 00:00",
+        "priceChange": -0.7333076032419884,
+        "priceChangeHighLow": 1.718414372192939
+    },
+    {
+        "date": "Sunday 2019-11-10",
+        "time": "00:00 - 02:00",
+        "priceChange": -0.01944012441679885,
+        "priceChangeHighLow": 1.4723203769140247
+    },
+    {
+        "date": "Sunday 2019-11-10",
+        "time": "02:00 - 04:00",
+        "priceChange": -0.2527707563678785,
+        "priceChangeHighLow": 0.9172521467603467
+    },
+    {
+        "date": "Sunday 2019-11-10",
+        "time": "04:00 - 06:00",
+        "priceChange": -0.21442495126705116,
+        "priceChangeHighLow": 1.2152097216777817
+    },
+    {
+        "date": "Sunday 2019-11-10",
+        "time": "06:00 - 08:00",
+        "priceChange": 0.19535065442468436,
+        "priceChangeHighLow": 0.8048684727130004
+    },
+    {
+        "date": "Sunday 2019-11-10",
+        "time": "08:00 - 10:00",
+        "priceChange": 0.116981867810488,
+        "priceChangeHighLow": 1.25367286973555
+    },
+    {
+        "date": "Sunday 2019-11-10",
+        "time": "10:00 - 12:00",
+        "priceChange": 0.9931840311587115,
+        "priceChangeHighLow": 1.524330662497556
+    },
+    {
+        "date": "Sunday 2019-11-10",
+        "time": "12:00 - 14:00",
+        "priceChange": 1.4462013112225303,
+        "priceChangeHighLow": 2.5665953723507715
+    },
+    {
+        "date": "Sunday 2019-11-10",
+        "time": "14:00 - 16:00",
+        "priceChange": 2.166888424253935,
+        "priceChangeHighLow": 5.2350019105846375
+    },
+    {
+        "date": "Sunday 2019-11-10",
+        "time": "16:00 - 18:00",
+        "priceChange": -0.5953488372093007,
+        "priceChangeHighLow": 2.17596972563861
+    },
+    {
+        "date": "Sunday 2019-11-10",
+        "time": "18:00 - 20:00",
+        "priceChange": -0.280741156653554,
+        "priceChangeHighLow": 1.9089019089019166
+    },
+    {
+        "date": "Sunday 2019-11-10",
+        "time": "20:00 - 22:00",
+        "priceChange": 1.576576576576574,
+        "priceChangeHighLow": 2.789373814041737
+    },
+    {
+        "date": "Sunday 2019-11-10",
+        "time": "22:00 - 00:00",
+        "priceChange": 0.5543237250554258,
+        "priceChangeHighLow": 3.74953130858642
+    },
+    {
+        "date": "Monday 2019-11-11",
+        "time": "00:00 - 02:00",
+        "priceChange": 0.9371554575523674,
+        "priceChangeHighLow": 1.5625
+    },
+    {
+        "date": "Monday 2019-11-11",
+        "time": "02:00 - 04:00",
+        "priceChange": 0.5097396686692199,
+        "priceChangeHighLow": 1.0784134527508686
+    },
+    {
+        "date": "Monday 2019-11-11",
+        "time": "04:00 - 06:00",
+        "priceChange": 2.209744611483422,
+        "priceChangeHighLow": 2.9845313921747056
+    },
+    {
+        "date": "Monday 2019-11-11",
+        "time": "06:00 - 08:00",
+        "priceChange": 2.729044834308001,
+        "priceChangeHighLow": 3.28655178539704
+    },
+    {
+        "date": "Monday 2019-11-11",
+        "time": "08:00 - 10:00",
+        "priceChange": -0.6727617733310328,
+        "priceChangeHighLow": 2.490286117979506
+    },
+    {
+        "date": "Monday 2019-11-11",
+        "time": "10:00 - 12:00",
+        "priceChange": -1.2156998957971474,
+        "priceChangeHighLow": 3.166783954961303
+    },
+    {
+        "date": "Monday 2019-11-11",
+        "time": "12:00 - 14:00",
+        "priceChange": -2.4437412095639983,
+        "priceChangeHighLow": 3.00126559392514
+    },
+    {
+        "date": "Monday 2019-11-11",
+        "time": "14:00 - 16:00",
+        "priceChange": -0.1261488556496677,
+        "priceChangeHighLow": 1.465798045602612
+    },
+    {
+        "date": "Monday 2019-11-11",
+        "time": "16:00 - 18:00",
+        "priceChange": 0.5774088776614924,
+        "priceChangeHighLow": 2.740481883391573
+    },
+    {
+        "date": "Monday 2019-11-11",
+        "time": "18:00 - 20:00",
+        "priceChange": -0.2511661284535365,
+        "priceChangeHighLow": 2.2266473569876872
+    },
+    {
+        "date": "Monday 2019-11-11",
+        "time": "20:00 - 22:00",
+        "priceChange": 0.5935251798561159,
+        "priceChangeHighLow": 1.3893901118729666
+    },
+    {
+        "date": "Monday 2019-11-11",
+        "time": "22:00 - 00:00",
+        "priceChange": 1.18004648667978,
+        "priceChangeHighLow": 3.612479474548445
+    },
+    {
+        "date": "Tuesday 2019-11-12",
+        "time": "00:00 - 02:00",
+        "priceChange": 1.2016257289273786,
+        "priceChangeHighLow": 2.1321961620468985
+    },
+    {
+        "date": "Tuesday 2019-11-12",
+        "time": "02:00 - 04:00",
+        "priceChange": 0.646062510913213,
+        "priceChangeHighLow": 1.4739427969819243
+    },
+    {
+        "date": "Tuesday 2019-11-12",
+        "time": "04:00 - 06:00",
+        "priceChange": 4.92713393476753,
+        "priceChangeHighLow": 7.192494788047261
+    },
+    {
+        "date": "Tuesday 2019-11-12",
+        "time": "06:00 - 08:00",
+        "priceChange": 2.4470899470899417,
+        "priceChangeHighLow": 4.363818759404781
+    },
+    {
+        "date": "Tuesday 2019-11-12",
+        "time": "08:00 - 10:00",
+        "priceChange": -1.8398967075532664,
+        "priceChangeHighLow": 2.952886529528854
+    },
+    {
+        "date": "Tuesday 2019-11-12",
+        "time": "10:00 - 12:00",
+        "priceChange": -0.3452811575139645,
+        "priceChangeHighLow": 2.523553162853297
+    },
+    {
+        "date": "Tuesday 2019-11-12",
+        "time": "12:00 - 14:00",
+        "priceChange": 4.999175053621506,
+        "priceChangeHighLow": 7.029702970297018
+    },
+    {
+        "date": "Tuesday 2019-11-12",
+        "time": "14:00 - 16:00",
+        "priceChange": 2.137020741671902,
+        "priceChangeHighLow": 4.591104734576758
+    },
+    {
+        "date": "Tuesday 2019-11-12",
+        "time": "16:00 - 18:00",
+        "priceChange": -1.5538461538461465,
+        "priceChangeHighLow": 2.699289660615616
+    },
+    {
+        "date": "Tuesday 2019-11-12",
+        "time": "18:00 - 20:00",
+        "priceChange": -1.4377246444757004,
+        "priceChangeHighLow": 3.012337766383589
+    },
+    {
+        "date": "Tuesday 2019-11-12",
+        "time": "20:00 - 22:00",
+        "priceChange": 1.4428412874583785,
+        "priceChangeHighLow": 2.6277840089729225
+    },
+    {
+        "date": "Tuesday 2019-11-12",
+        "time": "22:00 - 00:00",
+        "priceChange": 2.5164113785557936,
+        "priceChangeHighLow": 5.443259589368126
+    },
+    {
+        "date": "Wednesday 2019-11-13",
+        "time": "00:00 - 02:00",
+        "priceChange": -1.0214971794480767,
+        "priceChangeHighLow": 2.5312548232751846
+    },
+    {
+        "date": "Wednesday 2019-11-13",
+        "time": "02:00 - 04:00",
+        "priceChange": 2.9420825631546412,
+        "priceChangeHighLow": 4.764861089554555
+    },
+    {
+        "date": "Wednesday 2019-11-13",
+        "time": "04:00 - 06:00",
+        "priceChange": -1.8105641179111116,
+        "priceChangeHighLow": 3.0624807633117808
+    },
+    {
+        "date": "Wednesday 2019-11-13",
+        "time": "06:00 - 08:00",
+        "priceChange": -1.127704967997566,
+        "priceChangeHighLow": 2.165506573859234
+    },
+    {
+        "date": "Wednesday 2019-11-13",
+        "time": "08:00 - 10:00",
+        "priceChange": -3.1442663378545035,
+        "priceChangeHighLow": 5.072579358749397
+    },
+    {
+        "date": "Wednesday 2019-11-13",
+        "time": "10:00 - 12:00",
+        "priceChange": 1.4481222151495854,
+        "priceChangeHighLow": 3.6497518809028318
+    },
+    {
+        "date": "Wednesday 2019-11-13",
+        "time": "12:00 - 14:00",
+        "priceChange": -3.4196078431372463,
+        "priceChangeHighLow": 4.357760731189828
+    },
+    {
+        "date": "Wednesday 2019-11-13",
+        "time": "14:00 - 16:00",
+        "priceChange": 3.280818580477504,
+        "priceChangeHighLow": 3.4762833008447007
+    },
+    {
+        "date": "Wednesday 2019-11-13",
+        "time": "16:00 - 18:00",
+        "priceChange": 0.4403208051580476,
+        "priceChangeHighLow": 2.413464591933951
+    },
+    {
+        "date": "Wednesday 2019-11-13",
+        "time": "18:00 - 20:00",
+        "priceChange": 0.5793017065915094,
+        "priceChangeHighLow": 2.4336283185840646
+    },
+    {
+        "date": "Wednesday 2019-11-13",
+        "time": "20:00 - 22:00",
+        "priceChange": -0.5448318804483236,
+        "priceChangeHighLow": 1.6473172262315665
+    },
+    {
+        "date": "Wednesday 2019-11-13",
+        "time": "22:00 - 00:00",
+        "priceChange": 0.25043042729692266,
+        "priceChangeHighLow": 1.3322884012539185
+    },
+    {
+        "date": "Thursday 2019-11-14",
+        "time": "00:00 - 02:00",
+        "priceChange": -1.3739266198282654,
+        "priceChangeHighLow": 1.79137603043753
+    },
+    {
+        "date": "Thursday 2019-11-14",
+        "time": "02:00 - 04:00",
+        "priceChange": -0.34826658223839563,
+        "priceChangeHighLow": 1.4913406029506124
+    },
+    {
+        "date": "Thursday 2019-11-14",
+        "time": "04:00 - 06:00",
+        "priceChange": -1.0961080222398805,
+        "priceChangeHighLow": 2.559533452130247
+    },
+    {
+        "date": "Thursday 2019-11-14",
+        "time": "06:00 - 08:00",
+        "priceChange": 1.2206874397687206,
+        "priceChangeHighLow": 1.8700628728034787
+    },
+    {
+        "date": "Thursday 2019-11-14",
+        "time": "08:00 - 10:00",
+        "priceChange": -0.46017137416693715,
+        "priceChangeHighLow": 1.169684345457461
+    },
+    {
+        "date": "Thursday 2019-11-14",
+        "time": "10:00 - 12:00",
+        "priceChange": -0.5260640841702542,
+        "priceChangeHighLow": 1.7900338655055634
+    },
+    {
+        "date": "Thursday 2019-11-14",
+        "time": "12:00 - 14:00",
+        "priceChange": 0.8653846153846191,
+        "priceChangeHighLow": 2.241351307454931
+    },
+    {
+        "date": "Thursday 2019-11-14",
+        "time": "14:00 - 16:00",
+        "priceChange": 0.5401970130282837,
+        "priceChangeHighLow": 4.490584258812178
+    },
+    {
+        "date": "Thursday 2019-11-14",
+        "time": "16:00 - 18:00",
+        "priceChange": 0.9165613147914016,
+        "priceChangeHighLow": 1.8495099588997774
+    },
+    {
+        "date": "Thursday 2019-11-14",
+        "time": "18:00 - 20:00",
+        "priceChange": 2.2549326652051365,
+        "priceChangeHighLow": 2.495683566159163
+    },
+    {
+        "date": "Thursday 2019-11-14",
+        "time": "20:00 - 22:00",
+        "priceChange": 6.186830015313933,
+        "priceChangeHighLow": 7.656967840735063
+    },
+    {
+        "date": "Thursday 2019-11-14",
+        "time": "22:00 - 00:00",
+        "priceChange": 0.1009518315546591,
+        "priceChangeHighLow": 1.7651349380014654
+    },
+    {
+        "date": "Friday 2019-11-15",
+        "time": "00:00 - 02:00",
+        "priceChange": 3.0687220861547275,
+        "priceChangeHighLow": 5.045408678102933
+    },
+    {
+        "date": "Friday 2019-11-15",
+        "time": "02:00 - 04:00",
+        "priceChange": 1.4956667598546314,
+        "priceChangeHighLow": 4.186569261028374
+    },
+    {
+        "date": "Friday 2019-11-15",
+        "time": "04:00 - 06:00",
+        "priceChange": 2.052058945048889,
+        "priceChangeHighLow": 4.842310912643038
+    },
+    {
+        "date": "Friday 2019-11-15",
+        "time": "06:00 - 08:00",
+        "priceChange": -1.0931174089068871,
+        "priceChangeHighLow": 4.433089352299407
+    },
+    {
+        "date": "Friday 2019-11-15",
+        "time": "08:00 - 10:00",
+        "priceChange": -2.278619184063305,
+        "priceChangeHighLow": 3.396226415094342
+    },
+    {
+        "date": "Friday 2019-11-15",
+        "time": "10:00 - 12:00",
+        "priceChange": 4.314437308014525,
+        "priceChangeHighLow": 5.327523193702559
+    },
+    {
+        "date": "Friday 2019-11-15",
+        "time": "12:00 - 14:00",
+        "priceChange": 1.6463659483335542,
+        "priceChangeHighLow": 3.172266095569527
+    },
+    {
+        "date": "Friday 2019-11-15",
+        "time": "14:00 - 16:00",
+        "priceChange": 4.200684751119303,
+        "priceChangeHighLow": 5.8360042735042725
+    },
+    {
+        "date": "Friday 2019-11-15",
+        "time": "16:00 - 18:00",
+        "priceChange": -6.824213319853402,
+        "priceChangeHighLow": 10.827067669172923
+    },
+    {
+        "date": "Friday 2019-11-15",
+        "time": "18:00 - 20:00",
+        "priceChange": 3.3907500339074916,
+        "priceChangeHighLow": 3.6393264530146663
+    },
+    {
+        "date": "Friday 2019-11-15",
+        "time": "20:00 - 22:00",
+        "priceChange": -9.64187327823691,
+        "priceChangeHighLow": 13.589781672360017
+    },
+    {
+        "date": "Friday 2019-11-15",
+        "time": "22:00 - 00:00",
+        "priceChange": 3.295586527293841,
+        "priceChangeHighLow": 4.127030586857898
+    },
+    {
+        "date": "Saturday 2019-11-16",
+        "time": "00:00 - 02:00",
+        "priceChange": 2.543921293042876,
+        "priceChangeHighLow": 2.9999999999999947
+    },
+    {
+        "date": "Saturday 2019-11-16",
+        "time": "02:00 - 04:00",
+        "priceChange": -0.15076754385965724,
+        "priceChangeHighLow": 2.378964941569284
+    },
+    {
+        "date": "Saturday 2019-11-16",
+        "time": "04:00 - 06:00",
+        "priceChange": 5.9711736444749555,
+        "priceChangeHighLow": 7.394123327355497
+    },
+    {
+        "date": "Saturday 2019-11-16",
+        "time": "06:00 - 08:00",
+        "priceChange": -0.19430051813471833,
+        "priceChangeHighLow": 4.153988622833709
+    },
+    {
+        "date": "Saturday 2019-11-16",
+        "time": "08:00 - 10:00",
+        "priceChange": -2.5438027255029203,
+        "priceChangeHighLow": 3.3680834001603914
+    },
+    {
+        "date": "Saturday 2019-11-16",
+        "time": "10:00 - 12:00",
+        "priceChange": -1.8377946464242922,
+        "priceChangeHighLow": 2.788356909684444
+    },
+    {
+        "date": "Saturday 2019-11-16",
+        "time": "12:00 - 14:00",
+        "priceChange": 1.5330348663682032,
+        "priceChangeHighLow": 3.8440492476060193
+    },
+    {
+        "date": "Saturday 2019-11-16",
+        "time": "14:00 - 16:00",
+        "priceChange": 0.8017103153393927,
+        "priceChangeHighLow": 3.8363855099585606
+    },
+    {
+        "date": "Saturday 2019-11-16",
+        "time": "16:00 - 18:00",
+        "priceChange": 1.0604453870625574,
+        "priceChangeHighLow": 3.456098211902863
+    },
+    {
+        "date": "Saturday 2019-11-16",
+        "time": "18:00 - 20:00",
+        "priceChange": -0.14428121720881068,
+        "priceChangeHighLow": 2.4072612470402523
+    },
+    {
+        "date": "Saturday 2019-11-16",
+        "time": "20:00 - 22:00",
+        "priceChange": -1.9046368054643394,
+        "priceChangeHighLow": 4.078570454235436
+    },
+    {
+        "date": "Saturday 2019-11-16",
+        "time": "22:00 - 00:00",
+        "priceChange": 0.12051419389395189,
+        "priceChangeHighLow": 2.7380631238198014
+    },
+    {
+        "date": "Sunday 2019-11-17",
+        "time": "00:00 - 02:00",
+        "priceChange": 0.053497392002135394,
+        "priceChangeHighLow": 1.4168128457698024
+    },
+    {
+        "date": "Sunday 2019-11-17",
+        "time": "02:00 - 04:00",
+        "priceChange": -1.6307980216548552,
+        "priceChangeHighLow": 1.9575856443719417
+    },
+    {
+        "date": "Sunday 2019-11-17",
+        "time": "04:00 - 06:00",
+        "priceChange": 0.08153281695882496,
+        "priceChangeHighLow": 1.5554645927138817
+    },
+    {
+        "date": "Sunday 2019-11-17",
+        "time": "06:00 - 08:00",
+        "priceChange": 0.28513238289205955,
+        "priceChangeHighLow": 2.943626770341565
+    },
+    {
+        "date": "Sunday 2019-11-17",
+        "time": "08:00 - 10:00",
+        "priceChange": -0.5957216355266807,
+        "priceChangeHighLow": 1.4236824093086917
+    },
+    {
+        "date": "Sunday 2019-11-17",
+        "time": "10:00 - 12:00",
+        "priceChange": -1.4846090983383238,
+        "priceChangeHighLow": 1.7461197339246033
+    },
+    {
+        "date": "Sunday 2019-11-17",
+        "time": "12:00 - 14:00",
+        "priceChange": 0.9539610120282108,
+        "priceChangeHighLow": 1.7466038258940981
+    },
+    {
+        "date": "Sunday 2019-11-17",
+        "time": "14:00 - 16:00",
+        "priceChange": -0.9860312243221037,
+        "priceChangeHighLow": 2.884074282498598
+    },
+    {
+        "date": "Sunday 2019-11-17",
+        "time": "16:00 - 18:00",
+        "priceChange": 0.13831258644536087,
+        "priceChangeHighLow": 2.433259176863191
+    },
+    {
+        "date": "Sunday 2019-11-17",
+        "time": "18:00 - 20:00",
+        "priceChange": -1.0773480662983417,
+        "priceChangeHighLow": 1.8918161434977536
+    },
+    {
+        "date": "Sunday 2019-11-17",
+        "time": "20:00 - 22:00",
+        "priceChange": 1.1030438425020954,
+        "priceChangeHighLow": 2.1653543307086562
+    },
+    {
+        "date": "Sunday 2019-11-17",
+        "time": "22:00 - 00:00",
+        "priceChange": 0.16572296644109732,
+        "priceChangeHighLow": 1.8436373717771044
+    },
+    {
+        "date": "Monday 2019-11-18",
         "time": "00:00 - 00:00",
-        "priceChange": 0.0585365853658445,
-        "priceChangeHighLow": 0.5094043887147331
+        "priceChange": 0.37225975458431154,
+        "priceChangeHighLow": 0.6901311249137414
     }
 ]
