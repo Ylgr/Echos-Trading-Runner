@@ -23,7 +23,7 @@ const tokenSymbols = [
     'BAT',
     'IOST'
 ]
-const toTS = '1574010000'; // Monday, November 18, 2019 12:00:00 AM GMT+07:00
+const toTS = '1575219600'; // Monday, December 2, 2019 12:00:00 AM GMT+07:00
 // const tokenSymbol = 'BTC';
 const withTokenSymbol = 'USDT';
 const apiKey = 'cdc591b1638966047a2fe76dd5b8460815685823fb0fcd9e2eb0cb71c34fb8f2';
@@ -125,7 +125,7 @@ function processingContent(data, exportType = ExportType.default, caculatedBy = 
     }).join('\n');
 }
 
-const aggregate = '2';
+const aggregate = '1';
 const aggregatePredictableTimePeriods = 'false'
 tokenSymbols.forEach(tokenSymbol => {
 instance.get('https://min-api.cryptocompare.com/data/v2/histohour?fsym=' + tokenSymbol + '&tsym=' + withTokenSymbol + '&toTs=' + toTS + '&aggregate=' + aggregate + '&aggregatePredictableTimePeriods=' + aggregatePredictableTimePeriods + '&limit=840')
